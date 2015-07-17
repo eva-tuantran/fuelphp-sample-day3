@@ -20,12 +20,12 @@
  * @extends  Controller
  */
 class Controller_TestPhpmd extends Controller {
-	/**
-	 * The basic welcome message
-	 *
-	 * @access  public
-	 * @return  Response
-	 */
+    /**
+     * The basic welcome message
+     *
+     * @access  public
+     * @return  Response
+     */
 	public function action_index()
 	{
 		return Response::forge(View::forge('welcome/index'));
